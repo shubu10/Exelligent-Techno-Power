@@ -314,7 +314,7 @@
     transition: background-color 0.5s;
     position: fixed;
     bottom: 50px;
-    right: 10px;
+    right: 20px;
 }
 
 #back-top:hover {
@@ -469,7 +469,7 @@
     padding: 2rem;
     margin: 1rem auto;
     /* border: 2px solid black; */
-    background-color: rgb(151, 151, 151);
+    background-color: rgb(180, 180, 180);
     justify-content: space-evenly;
     border-radius: 50px;
     box-shadow: 0 0 25px 5px rgb(80, 80, 80);
@@ -509,7 +509,7 @@
     transition: background-color 0.5s;
     position: fixed;
     bottom: 30px;
-    right: 10px;
+    right: 20px;
 }
 
 #back-top2:hover {
@@ -659,6 +659,10 @@
     }
 
 
+    .franchises {
+        background-image: none;
+        background-color: #4d93a1;
+    }
 
     .franchises img {
         width: 70%;
@@ -678,6 +682,11 @@
         width: 80vw;
         text-align: center;
         font-size: 1rem;
+    }
+
+    .contact-us {
+        background: none;
+        background-color: rgb(64, 99, 108);
     }
 
     .cont {
