@@ -1,0 +1,766 @@
+.heading {
+    height: 100vh;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url("earth.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.heading h1 {
+    font-size: 5rem;
+    height: auto;
+    text-align: center;
+    margin-top: 5rem;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(93, 136, 228);
+    letter-spacing: 1rem;
+    margin-top: 10rem;
+}
+
+.heading h5 {
+    font-size: 3rem;
+    margin-top: -100px;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(139, 170, 177);
+}
+
+
+.section-heading {
+    /* width: 100vw; */
+    text-align: center;
+    padding-top: 4%;
+    /* padding-bottom: 0.5rem; */
+    font-size: 3rem;
+    color: rgb(40, 40, 40);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.course {
+    background: linear-gradient(to right, #d7d2cc, #304352);
+}
+
+.mecha {
+    background-image: url("design1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mecha h5 {
+    width: 80vw;
+    margin: auto;
+    background-color: rgba(75, 75, 75, 0.7);
+    padding: 1rem;
+    color: azure;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.details {
+    display: flex;
+    flex-wrap: nowrap;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 3%;
+    /* border-radius: 20px; */
+}
+
+.card {
+    text-align: center;
+    background-color: rgb(80, 80, 80);
+    height: auto;
+    width: 25%;
+    margin: 2%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding-bottom: 20px;
+    color: rgb(255, 255, 255);
+    /* border: 3px solid rgb(100, 100, 100); */
+
+}
+
+.btn {
+    border-radius: 15px;
+    /* border: none; */
+    border: 2px solid rgb(51, 51, 51);
+    /* background: linear-gradient(to right, #9bc5c3, #616161); */
+    background-color: rgb(185, 185, 185);
+    width: 50%;
+    margin: auto;
+    font-size: 1.3rem;
+}
+
+.btn:hover {
+    color: black;
+    border-color: rgb(0, 0, 0);
+    background-color: beige;
+}
+
+
+.know-button {
+    border-radius: 15px;
+    border: none;
+    background: linear-gradient(to right, #9bc5c3, #616161);
+    width: 50%;
+    margin: auto;
+    height: 40px;
+    font-size: 1.3rem;
+}
+
+.know-button a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.details-img {
+    margin-bottom: 20px;
+}
+
+.about-list {
+    width: 80vw;
+    margin: auto;
+    padding: 3rem;
+    font-style: italic;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.founders h4 {
+    color: rgb(0, 4, 67);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.founders h6 {
+    color: rgb(68, 67, 105);
+    font-size: 1.2rem;
+}
+
+.founders div {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(122, 155, 184);
+    width: 40%;
+}
+
+.team h1 {
+    font-size: 2rem;
+    color: rgb(56, 63, 111);
+    margin-bottom: 2rem;
+}
+
+
+.trainers div {
+    /* border: 2px solid grey; */
+    border-radius: 5px;
+    background-color: rgb(44, 75, 74);
+    width: 18%;
+
+}
+
+.trainers h6 {
+    font-size: 0.9rem;
+    padding: 2px;
+    /* font-weight: 100; */
+}
+
+.mou {
+    display: flex;
+    justify-content: center;
+}
+
+.mou img {
+    width: 80vw;
+    margin: 2rem;
+    margin-bottom: 4rem;
+    border-radius: 20px;
+}
+
+.testimonial {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+
+.testimonial h1 {
+    width: 100%;
+    text-align: center;
+    margin: 2rem;
+    font-size: 3rem;
+    color: #1D2B64;
+}
+
+.testimonial video {
+    border-radius: 20px;
+}
+
+.placements div {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.placements img {
+    width: 80vw;
+    margin: 2rem;
+    margin-bottom: 4rem;
+    border-radius: 20px;
+}
+
+.about-us {
+    background: linear-gradient(to right, #F8CDDA, #1D2B64);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+.franchises {
+    background-image: url("graffiti.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 3rem;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+}
+
+.franchises div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.franchises img {
+    width: 50vw;
+    margin: 3rem;
+    /* border: 5px solid grey; */
+    box-shadow: 0 0 25px 5px rgb(80, 80, 80);
+    border-radius: 15px;
+}
+
+
+.franc h1 {
+    font-size: 2.3rem;
+    width: 90vw;
+    text-align: center;
+}
+
+.franc h4 {
+    width: 90vw;
+    text-align: center;
+}
+
+.contact-us {
+    /* background-image: url("leaves.jpg"); */
+    background: linear-gradient(to top right, grey, purple);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* height: 80vh; */
+    padding-bottom: 3rem;
+}
+
+
+
+
+
+.cont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.icon {
+    /* display: flex; */
+    justify-content: center;
+    width: 25%;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 3rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.icon p {
+    background-color: rgba(50, 50, 50, 0.5);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+
+
+#back-top {
+    border: none;
+    font-size: 1.2rem;
+    background-color: rgba(50, 50, 50, 0.5);
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: background-color 0.5s;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+}
+
+#back-top:hover {
+    background-color: rgb(185, 80, 255);
+}
+
+#back-top a {
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+}
+
+
+.top {
+    display: flex;
+    justify-content: end;
+    padding: 0 1rem;
+}
+
+
+.foot {
+    text-align: center;
+    background-color: rgb(50, 50, 50);
+    color: rgb(173, 173, 173);
+}
+
+
+
+
+.modal-body {
+    color: black;
+}
+
+.modal-body img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.modal-body p {
+    text-align: start;
+    font-size: 1.1rem;
+}
+
+.modal-body li {
+    text-align: start;
+
+}
+
+
+/* ***************************************************** */
+
+
+
+.back-home {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #2b6c79;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.courses-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2rem;
+    /* border: 5px solid black; */
+    background-color: rgb(200, 200, 200);
+    border-radius: 50px;
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    /* margin: 2rem 0; */
+
+}
+
+.courses-section-header {
+    width: 100%;
+    text-align: center;
+    margin: 3rem;
+    font-size: 3rem;
+    color: #304352;
+}
+
+
+.courses-main h1 {
+    font-size: 5rem;
+    text-align: center;
+    margin: 3rem;
+    color: rgb(93, 136, 228)
+}
+
+
+
+.courses-page {
+    /* border: 2px solid black; */
+    width: 45%;
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    /* margin: auto; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.courses-page img {
+    width: 100%;
+}
+
+.courses-page h1 {
+    font-size: 1.5rem;
+}
+
+
+.courses-content {
+    padding: 1rem;
+    width: 100%;
+    /* padding: 2px; */
+}
+
+.register-button {
+    text-align: center;
+    /* margin: auto; */
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    /* background-color: grey; */
+    border: 2px solid rgb(47, 47, 47);
+    height: 3rem;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.register-button:hover {
+    background-color: rgb(99, 233, 233);
+}
+
+.register-button a {
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+    font-size: 1.2rem;
+}
+
+
+.courses-trainer {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    margin: 1rem auto;
+    /* border: 2px solid black; */
+    background-color: rgb(151, 151, 151);
+    justify-content: space-evenly;
+    border-radius: 50px;
+    box-shadow: 0 0 25px 5px rgb(80, 80, 80);
+
+}
+
+.courses-trainer h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+.courses-trainer img {
+    width: 35%;
+    margin-right: 2rem;
+    border-radius: 20px;
+    /* height: 100%; */
+}
+
+.courses-trainer h2 {
+    width: 100%;
+}
+
+.trainer-desc {
+    text-align: start;
+    width: 60%;
+}
+
+
+#back-top2 {
+    border: none;
+    font-size: 1.2rem;
+    background-color: rgba(50, 50, 50, 0.5);
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: background-color 0.5s;
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+}
+
+#back-top2:hover {
+    background-color: rgb(185, 80, 255);
+}
+
+#back-top2 a {
+    text-decoration: none;
+    color: rgb(220, 220, 220);
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+
+
+    .heading {
+        height: 50vh;
+        background-attachment: scroll;
+    }
+
+    .heading h1 {
+        font-size: 2rem;
+        letter-spacing: 0.5rem;
+        margin-top: 7rem;
+    }
+
+    .heading h5 {
+        font-size: 1.5rem;
+        margin-top: -3.5rem;
+    }
+
+    .section-heading {
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+        font-size: 2.4rem;
+        width: 95%;
+        margin: auto;
+    }
+
+    .mecha h5 {
+        width: 80vw;
+        margin: auto;
+        background-color: rgba(75, 75, 75, 0.7);
+        padding: 1rem;
+        color: azure;
+        border-radius: 10px;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        font-size: 1rem;
+        font-weight: lighter;
+    }
+
+    .details {
+        padding-bottom: 8%;
+    }
+
+    .card {
+        width: 40%;
+        margin: 2%;
+        background-color: rgb(52, 93, 114);
+    }
+
+    .card h4 {
+        font-size: 1rem;
+    }
+
+    .btn {
+        border-radius: 10px;
+        font-size: 0.6rem;
+    }
+
+    .know-button {
+        border-radius: 10px;
+        font-size: 0.6rem;
+        height: 25px;
+    }
+
+    .about-list {
+        width: 100%;
+        margin-top: -2rem;
+        font-size: 0.9rem;
+    }
+
+    .founders div {
+        width: 80%;
+        margin: 1rem;
+    }
+
+    .founders h4 {
+        color: rgb(20, 24, 69);
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .founders h6 {
+        color: rgb(55, 54, 93);
+        font-size: 1rem;
+    }
+
+
+
+    .trainers div {
+        /* border: 2px solid grey; */
+        border-radius: 5px;
+        background-color: rgb(44, 75, 74);
+        width: 35%;
+
+    }
+
+    .trainers h6 {
+        font-size: 0.6rem;
+        padding: 2px;
+        font-weight: lighter;
+    }
+
+    .trainers h5 {
+        font-size: 0.9rem;
+        font-weight: lighter;
+    }
+
+    .testimonial {
+        padding-bottom: 4rem;
+    }
+
+    .testimonial h1 {
+        width: 100%;
+        text-align: center;
+        margin: 2rem;
+        font-size: 2rem;
+        color: #1D2B64;
+    }
+
+    .testimonial video {
+        border-radius: 20px;
+        width: 70%;
+    }
+
+    .placements img {
+        width: 90%;
+    }
+
+
+
+    .franchises img {
+        width: 70%;
+        box-shadow: 0 0 15px 5px grey;
+        border: none;
+    }
+
+
+    .franc h1 {
+        font-size: 1.5rem;
+        width: 90vw;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .franc h4 {
+        width: 80vw;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .cont {
+        margin-top: 1rem;
+    }
+
+    .icon {
+        width: 80%;
+        text-align: center;
+        margin: 1rem;
+        color: rgb(220, 220, 220);
+        font-weight: 500;
+    }
+
+    .icon p {
+        background-color: rgba(50, 50, 50, 0.5);
+        border-radius: 5px;
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+
+
+
+
+
+
+
+
+    /* ************************************************************ */
+
+    .back-home {
+        font-size: 1rem;
+    }
+
+    .courses-container {
+        border-radius: 20px;
+    }
+
+    .courses-main h1 {
+        font-size: 4rem;
+    }
+
+
+    .courses-section-header {
+        font-size: 2rem;
+        border: 2px solid rgb(32, 90, 143);
+        border-radius: 20px;
+        padding: 1rem;
+        /* width: 100%; */
+    }
+
+    .courses-page {
+        /* border: 2px solid black; */
+        width: 100%;
+        padding: 0.5rem;
+        margin: 3rem 0;
+
+    }
+
+    .courses-trainer {
+        width: 100%;
+        padding: 1rem;
+        margin: 1rem 0;
+        border-radius: 20px;
+
+    }
+
+    .courses-trainer h1 {
+        font-size: 2rem;
+    }
+
+    .courses-trainer img {
+        width: 60%;
+        margin: auto;
+    }
+
+
+    .trainer-desc {
+        width: 90%;
+        margin: 1rem 0;
+    }
+
+
+
+
+}
